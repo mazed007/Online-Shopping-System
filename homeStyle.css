@@ -1,0 +1,110 @@
+body{
+	margin:0;
+	padding:0;
+	background:#313131;
+}
+
+
+
+.page
+{
+color:red;
+border:1px solid gray;
+height:1200px;
+width:1000px;
+text-align:center;
+margin:auto;
+}
+
+.header
+{
+border:1px solid gray;
+height:500px;
+width:1000px;
+background:url(download.jpg);
+
+animation:slide 20s infinite;
+}
+
+
+@keyframes slide{
+	25%{
+		background:url(shop.jpg);
+	}
+	50%{
+		background:url(shopping.jpg);
+	}
+	75%{
+		
+		background:url(offer06.jpg);
+	}
+	100%{
+		background:url(Cover-free-tools.jpg);
+	}
+}
+
+.main
+{
+border:1px solid gray;
+height:650px;
+width:1000px;
+}	
+.main1
+{
+	border:1px solid gray;
+	height:300px;
+    width:695px;
+	float:right;
+	
+}
+.main2
+{
+	border:1px solid gray;
+	height:300px;
+    width:695px;
+	float:right;
+	
+}
+
+.side
+{
+border:1px solid gray;
+height:650px;
+width:300px;
+}
+
+.footer
+{
+	
+height:200px;
+width:1000px;
+background:white;
+border:1px solid gray;
+text-align:left;
+color:black;
+}
+
+.nav_wrapper{
+	height:50px;
+	width:350;
+	background:red;
+	margin:auto;
+}
+
+.nav_wrapper ul li{
+	list-style:none;
+	display:inline;
+	font-weight:bold;
+	padding:10px;
+}
+
+.nav_wrapper a {
+	color:white;
+	text-decoration:none;
+	
+}
+
+.nav_wrapper ul li:hover{
+	background:blue;
+	transition:all 0.45s;
+}

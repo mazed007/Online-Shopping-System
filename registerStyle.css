@@ -1,0 +1,77 @@
+
+body{
+	margin:0;
+	padding:0;
+	background:#313131;
+}
+
+
+.lpage
+{
+color:red;
+border:1px solid gray;
+height:1200px;
+width:1000px;
+text-align:center;
+margin:auto;
+background:peachpuff;
+}
+.login
+{
+border:1px solid gray;
+height:500px;
+width:600px;
+text-align:center;
+margin:auto;
+background-color:deepskyblue;
+}
+.head
+{
+border:1px solid gray;
+height:500px;
+width:1000px;
+
+background:url(images.jpg);
+
+animation:slide 20s infinite;
+}
+
+@keyframes slide{
+	25%{
+		background:url(download.jpg);
+	}
+	50%{
+		background:url(shopping.jpg);
+	}
+	75%{
+		background:url(offer06.jpg);
+	}
+	100%{
+		background:url(Cover-free-tools.jpg);
+	}
+}
+
+.nav_wrapper{
+	height:40px;
+	width:350;
+	background:red;
+	margin:auto;
+}
+
+.nav_wrapper ul li{
+	list-style:none;
+	display:inline;
+	font-weight:bold;
+	padding:10px;
+}
+
+.nav_wrapper a {
+	color:white;
+	text-decoration:none;
+	
+}
+
+.nav_wrapper ul li:hover{
+	background:blue;
+	transition:all 0.45s;
+}
